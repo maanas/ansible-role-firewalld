@@ -14,4 +14,4 @@ firewalld_allow_services:
   - { service: "https" }
 
 firewalld_allow_ports: 
-  - { port: "22" }
+  - { port: "22/tcp" }
