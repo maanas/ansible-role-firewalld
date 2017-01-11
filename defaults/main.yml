@@ -9,9 +9,7 @@ __firewalld_services:
     permanant: true
     state: enabled
     
-firewalld_allow_services: 
-  - { service: "http" }
-  - { service: "https" }
-
-firewalld_allow_ports: 
-  - { port: "22/tcp" }
+firewalld_allow_services: []
+  
+firewalld_allow_ports: []
+  
